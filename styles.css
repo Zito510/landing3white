@@ -639,7 +639,7 @@ a:hover{
 .partnersGrid{
   margin-top:30px;
   display:grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   border:1px solid rgba(255,255,255,.06);
   background: rgba(255,255,255,.02);
 }
@@ -654,7 +654,7 @@ a:hover{
   border-bottom:1px solid rgba(255,255,255,.06);
 }
 
-.partnerBox:nth-child(6n){
+.partnerBox:nth-child(5n){
   border-right:none;
 }
 
