@@ -12,6 +12,11 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+<div class="lang">
+  <a href="index.html"><img src="./assets/de.png" alt="Deutsch"></a>
+  <a href="al.html"><img src="./assets/al.png" alt="Albanisch"></a>
+  <a href="en.html"><img src="./assets/en.png" alt="Englisch"></a>
+</div>
 
   <!-- HEADER -->
   <header class="top" id="top">
@@ -29,12 +34,14 @@
     </div>
 
     <!-- RECHTS: NAV -->
-    <nav class="top__nav">
-      <a href="impressum.html">Impressum</a>
-      <a href="datenschutz.html">Datenschutz</a>
-    </nav>
+    <div class="top__nav">
 
-  </div>
+  <a href="impressum.html">Impressum</a>
+<a href="datenschutz.html">Datenschutz</a>
+
+ 
+
+</div>
 
   <div class="gold-stroke gold-stroke--top"></div>
 </header>
@@ -42,32 +49,36 @@
   <main>
 
     <!-- HERO -->
-  <section class="hero2 reveal">
-  <div class="wrap hero2__layout">
+<section class="hero2 reveal">
+  <img class="hero2__bg" src="./assets/hero.jpg" alt="Modernes Massivhaus bei Nacht">
 
-    <!-- LINKS: Bild -->
-    <div class="hero2__image">
-      <img src="./assets/hero.jpg" alt="Modernes Massivhaus bei Nacht">
-    </div>
+  <div class="hero2__overlay">
+    <div class="wrap hero2__inner">
 
-    <!-- RECHTS: Text -->
-    <div class="hero2__panel">
-      <div class="hero2__copy">
-        <h1 class="hero2__h1">
-          Massivhäuser mit Substanz.<br>
-          <span class="gold">Für Menschen, die bleiben wollen.</span>
+      <div class="hero2__top">
+        <h1 class="hero2__headline">
+          <span class="gold">Wir bauen oder finden Ihr Zuhause.<br>
+          </span>Massivhäuser und Immobilien.
         </h1>
+      </div>
 
-        <p class="hero2__p">
-          Planung, Bau und Begleitung – persönlich, transparent<br>
-          und verlässlich.
+      <div class="hero2__bottom">
+        <h2 class="hero2__subheadline">
+          <span class="gold">Für Menschen, die bleiben wollen.</span>
+        </h2>
+
+        <p class="hero2__text">
+          Planen. Bauen. Finden. Begleiten. <br> Persönlich. Transparent. Verlässlich.
         </p>
 
-        <a class="btn" href="#kontakt">Kostenlose Erstberatung sichern</a>
-        <div class="micro hero2__micro">Unverbindlich • Persönlich • Regional</div>
-      </div>
-    </div>
+        <a class="btn hero2__btn" href="#kontakt">Kostenlose Erstberatung sichern</a>
 
+        <div class="hero2__note">
+  Unverbindlich • Persönlich • Regional
+</div>
+      </div>
+
+    </div>
   </div>
 </section>
 
@@ -119,32 +130,39 @@
       <div class="gold-stroke"></div>
     </section>
 
-    <!-- TRUSTSACHE -->
-    <section class="section center reveal">
-      <div class="wrap">
-        <h2 class="h2">Hausbau ist <span class="gold">Vertrauenssache.</span></h2>
-        <p class="p p--center">
-          Viele Bauherren verlieren Zeit, Geld und Nerven durch unklare Abläufe,
-          wechselnde Ansprechpartner und versteckte Kosten.
-        </p>
+    <!-- VERTRAUEN – BAU & IMMOBILIEN -->
+<section class="section center reveal">
+  <div class="wrap">
+    
+    <h2 class="h2">
+  Ihr Zuhause beginnt mit Vertrauen<span class="gold"> <br> egal ob gebaut oder gefunden.</span>
+</h2>
 
-        <div class="midline">
-          <span>Genau hier setzen wir an</span>
-        </div>
-      </div>
-    </section>
+    <p class="p p--center">
+      Ob Neubau oder bestehende Immobilie – viele Menschen verlieren Zeit, Geld und Nerven 
+      durch unklare Abläufe, wechselnde Ansprechpartner und fehlende Transparenz.
+    </p>
 
-    <!-- VERTRAUENSWERTE -->
+    <div class="midline">
+      <span>Genau hier setzen wir an</span>
+    </div>
+
+  </div>
+</section>
+
+
+ <!-- VERTRAUENSWERTE -->
 <section class="section trustValues reveal">
   <div class="wrap">
     <div class="trustValues__box">
 
       <div class="trustValues__grid">
+
         <!-- Regional -->
         <div class="trustValue">
           <h3 class="trustValue__title">Regional</h3>
           <p class="trustValue__text">
-            Wir arbeiten ausschließlich mit starken Kooperationspartnern aus unserer Region.
+            Starke Partner aus der Region und beste Marktkenntnis vor Ort.
           </p>
           <span class="trustValue__line"></span>
         </div>
@@ -153,28 +171,58 @@
         <div class="trustValue">
           <h3 class="trustValue__title">Individuell</h3>
           <p class="trustValue__text">
-            Jedes unserer Projekte ist ein individuelles Architektenhaus.
+            Maßgeschneiderte Lösungen – vom Neubau bis zur passenden Immobilie.
           </p>
           <span class="trustValue__line"></span>
         </div>
 
-        <!-- Traditionell -->
+        <!-- Transparenz -->
         <div class="trustValue">
-          <h3 class="trustValue__title">Traditionell und innovativ</h3>
+          <h3 class="trustValue__title">Transparent</h3>
           <p class="trustValue__text">
-            Bewährte und modernste Verfahren für komfortables Wohnen.
+            Klare Abläufe, feste Ansprechpartner und volle Kostentransparenz.
           </p>
-          
+          <span class="trustValue__line"></span>
         </div>
+
+        <!-- Erfahrung -->
+        <div class="trustValue">
+          <h3 class="trustValue__title">Erfahren</h3>
+          <p class="trustValue__text">
+            Kompetenz im Bau und im Immobilienmarkt – alles aus einer Hand.
+          </p>
+        </div>
+
       </div>
 
     </div>
   </div>
 </section>
 
+<!-- VIDEO -->
+<section class="section reveal">
+  <div class="wrap">
 
+    <div class="center">
+      <h2 class="h2">
+        Einblick in unsere Arbeit
+      </h2>
+    </div>
 
-   <!-- ABLAUF -->
+    <div class="video">
+      <iframe 
+        src="https://www.youtube.com/embed/6LdQokCKi3U"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABLAUF -->
 <section class="section reveal">
   <div class="wrap">
 
@@ -187,36 +235,40 @@
       <div class="process__card">
         <img src="./assets/beratung.jpg" alt="Beratung">
         <div class="process__content">
-          <span class="process__nr">1.</span>
-          <h3 class="process__title">Beratung</h3>
-          <p class="process__text">Ihre Wünsche &amp; Ihr Budget</p>
+          <h3 class="process__title">
+  <span class="process__nr">1.</span> Beratung
+</h3>
+          <p class="process__text">Ihre Wünsche, Ziele &amp; Ihr Budget</p>
         </div>
       </div>
 
       <div class="process__card">
         <img src="./assets/planung.jpg" alt="Planung">
         <div class="process__content">
-          <span class="process__nr">2.</span>
-          <h3 class="process__title">Planung</h3>
-          <p class="process__text">Individuelles Konzept</p>
+          <h3 class="process__title">
+  <span class="process__nr">2.</span> Planung &amp; Auswahl
+</h3>
+          <p class="process__text">Neubaukonzept oder passende Immobilie</p>
         </div>
       </div>
 
       <div class="process__card">
-        <img src="./assets/bauphase.jpg" alt="Bauphase">
+        <img src="./assets/bauphase.jpg" alt="Umsetzung">
         <div class="process__content">
-          <span class="process__nr">3.</span>
-          <h3 class="process__title">Bauphase</h3>
-          <p class="process__text">Qualität &amp; Koordination</p>
+          <h3 class="process__title">
+  <span class="process__nr">3.</span> Umsetzung
+</h3>
+          <p class="process__text">Koordination, Prüfung &amp; Begleitung</p>
         </div>
       </div>
 
       <div class="process__card">
         <img src="./assets/uebergabe.jpg" alt="Übergabe">
         <div class="process__content">
-          <span class="process__nr">4.</span>
-          <h3 class="process__title">Übergabe</h3>
-          <p class="process__text">Schlüsselfertig &amp; termintreu</p>
+          <h3 class="process__title">
+  <span class="process__nr">4.</span> Übergabe
+</h3>
+          <p class="process__text">Sicher, transparent &amp; termingerecht</p>
         </div>
       </div>
 
@@ -224,28 +276,59 @@
   </div>
 </section>
 
+<!-- WERTE / KEY FACTS -->
+<section class="section reveal">
+  <div class="wrap">
 
+    <!-- Überschrift -->
+    <div class="center">
+      <h2 class="h2">
+        Wir bauen nicht nur Häuser.<br>
+        <span class="gold">Wir schaffen Werte – ob Neubau oder Immobilie.</span>
+      </h2>
+    </div>
 
-    <!-- WERTE + CHECKS -->
-    <section class="section reveal">
-      <div class="wrap values">
-        <div class="values__left">
-          <p class="values__headline">
-            Wir bauen keine Häuser von der Stange.<br>
-            <span class="gold">Wir bauen Werte.</span>
+    <!-- Container im Trust-Stil -->
+    <div class="trustValues__box">
+      <div class="trustValues__grid">
+
+        <div class="trustValue">
+          <div class="trustValue__icon">✓</div>
+          <p class="trustValue__text">
+            Planung &amp; passende Immobilien
           </p>
+          <span class="trustValue__line"></span>
         </div>
 
-        <div class="values__right">
-          <div class="checks">
-            <div class="check">✓ Individuelle Planung</div>
-            <div class="check">✓ Massive Bauweise</div>
-            <div class="check">✓ Ehrliche Beratung</div>
-            <div class="check">✓ Langfristige Wertstabilität</div>
-          </div>
+        <div class="trustValue">
+          <div class="trustValue__icon">✓</div>
+          <p class="trustValue__text">
+            Massive Bauweise &amp; geprüfte Objekte
+          </p>
+          <span class="trustValue__line"></span>
         </div>
+
+        <div class="trustValue">
+          <div class="trustValue__icon">✓</div>
+          <p class="trustValue__text">
+            Ehrliche Beratung &amp; transparente Abläufe
+          </p>
+          <span class="trustValue__line"></span>
+        </div>
+
+        <div class="trustValue">
+          <div class="trustValue__icon">✓</div>
+          <p class="trustValue__text">
+            Langfristige Wertstabilität &amp; Sicherheit
+          </p>
+         
+        </div>
+
       </div>
-    </section>
+    </div>
+
+  </div>
+</section>
 
     <!-- REFERENZEN -->
     <section class="section reveal">
@@ -259,7 +342,98 @@
           <div class="ref__cap">Familienhaus in Brandenburg</div>
         </article>
       </div>
-    </section>
+      </section>
+
+      <section class="section reveal services">
+  <div class="wrap">
+
+    <h2 class="h2 center">
+      Bauen und Immobilien – <span class="gold">alles aus einer Hand</span>
+    </h2>
+
+    <div class="services__grid">
+
+      <!-- NEU: BAUEN -->
+      <article class="service">
+        <img src="./assets/service0.jpg" alt="Hausbau">
+        <h3>Bauen von Massivhäusern</h3>
+        <p>Vom ersten Spatenstich bis zur Schlüsselübergabe – alles aus einer Hand.</p>
+      </article>
+
+      <article class="service">
+        <img src="./assets/service1.jpg" alt="Kauf und Verkauf">
+        <h3>Kauf und Verkauf<br>von Immobilien</h3>
+        <p>Sicher, transparent und mit dem Blick für den richtigen Wert.</p>
+      </article>
+
+      <article class="service">
+        <img src="./assets/service2.jpg" alt="Neubau">
+        <h3>Individuelle Planung</h3>
+        <p>Baufinanzierung, Abwicklung, Notarservice sowie Grundstücks- und Energieberatung.</p>
+      </article>
+
+      <article class="service">
+        <img src="./assets/service3.jpg" alt="Beratung">
+        <h3>Beratung und Begleitung</h3>
+        <p>Persönlich, ehrlich und an Ihrer Seite – vom ersten Gespräch bis zum Abschluss.</p>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+      <!-- REFERENZEN – KUNDENSTIMMEN -->
+<section class="section reveal">
+  <div class="wrap">
+
+    <div class="trustValues__box">
+      <div class="trustValues__grid">
+
+        <div class="trustValue">
+          <div class="trustValue__stars">★★★★★</div>
+          <p class="trustValue__text">
+            „Von der ersten Beratung bis zur Übergabe lief alles absolut transparent. 
+            Wir haben uns jederzeit gut aufgehoben gefühlt.“
+          </p>
+          <div class="trustValue__author">– Familie Schneider</div>
+          <span class="trustValue__line"></span>
+        </div>
+
+        <div class="trustValue">
+          <div class="trustValue__stars">★★★★★</div>
+          <p class="trustValue__text">
+            „Wir standen vor der Entscheidung Neubau oder Kauf – am Ende haben wir genau 
+            die Lösung gefunden, die perfekt zu uns passt.“
+          </p>
+          <div class="trustValue__author">– M. Richter</div>
+          <span class="trustValue__line"></span>
+        </div>
+
+        <div class="trustValue">
+          <div class="trustValue__stars">★★★★★</div>
+          <p class="trustValue__text">
+            „Ehrliche Beratung, klare Kommunikation und keine versteckten Kosten. 
+            Genau so stellt man sich das vor.“
+          </p>
+          <div class="trustValue__author">– Familie Weber</div>
+          <span class="trustValue__line"></span>
+        </div>
+
+        <div class="trustValue">
+          <div class="trustValue__stars">★★★★★</div>
+          <p class="trustValue__text">
+            „Man merkt sofort, dass hier Erfahrung dahinter steckt. 
+            Vom ersten Gespräch bis zum Ergebnis – einfach stark.“
+          </p>
+          <div class="trustValue__author">– T. Hoffmann</div>
+          
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
 
     <!-- ERFOLGSBILANZ (Counter) -->
 <section class="section reveal">
@@ -289,36 +463,74 @@
 </section>
 
 
-    <!-- KONTAKT -->
-    <section id="kontakt" class="section reveal">
-      <div class="wrap contact">
-        <aside class="person">
-          <div class="person__img"></div>
-          <div class="person__badge">
-            <div class="person__name">Cima Trumm</div>
-            <div class="person__role">Gründerin und Projekt-Managerin</div>
-          </div>
-        </aside>
+   <!-- KONTAKT / VORSTELLUNG -->
+<section id="kontakt" class="section reveal">
+  <div class="wrap">
 
-        <div class="lead">
-          <h2 class="h2">Vertrauen entsteht durch <span class="gold">Ergebnisse.</span></h2>
+    <!-- 1. VORSTELLUNG -->
+    <div class="contactIntro__grid">
 
-          <form id="leadForm" class="form" novalidate>
-            <div class="form__row">
-              <input name="name" placeholder="Ihr Name" required>
-              <input name="phone" placeholder="Telefon" required>
-            </div>
-            <input name="email" type="email" placeholder="E-Mail" required>
-            <textarea name="message" rows="4" placeholder="Ihre Nachricht" required></textarea>
+  <!-- LINKS: BILD -->
+  <div class="contactIntro__image">
+    <div class="person__img"></div>
+  </div>
 
-            <button class="btn btn--wide" type="submit">Beratung anfragen</button>
-            <div class="micro micro--center">DSGVO-konform • Keine Weitergabe Ihrer Daten</div>
+  <!-- RECHTS: TEXT -->
+  <div class="contactIntro__text">
+    <h2 class="h2">
+      Persönlich für Sie da – <span class="gold">mit Erfahrung und Herz</span>
+    </h2>
 
-            <div class="toast" id="toast" role="status" aria-live="polite"></div>
-          </form>
+    <p>
+      Mit großer Leidenschaft und einfühlsamem Engagement unterstütze ich Menschen dabei, 
+      ihren Traum vom eigenen Zuhause zu verwirklichen – ob Neubau oder passende Immobilie.
+    </p>
+
+    <p>
+      Als Mutter von sieben Kindern weiß ich, wie wichtig ein sicheres und behütetes Zuhause ist. 
+      Genau dieses Gefühl möchte ich auch meinen Kunden ermöglichen – mit Erfahrung, Klarheit und Vertrauen.
+    </p>
+
+    <p>
+      Ich spreche Deutsch, Englisch und Albanisch und begleite Sie persönlich auf Ihrem Weg – 
+      verständlich, transparent und auf Augenhöhe.
+    </p>
+  </div>
+
+</div>
+
+    <!-- 2. FORMULAR -->
+    <div class="contactForm">
+
+      <h2 class="h2 center">
+        Vertrauen entsteht durch <span class="gold">Ergebnisse.</span>
+      </h2>
+
+      <form id="leadForm" class="form" novalidate>
+        <div class="form__row">
+          <input name="name" placeholder="Ihr Name" required>
+          <input name="phone" placeholder="Telefon" required>
         </div>
-      </div>
-    </section>
+
+        <input name="email" type="email" placeholder="E-Mail" required>
+
+        <textarea name="message" rows="4" placeholder="Ihre Nachricht" required></textarea>
+
+        <button class="btn btn--wide" type="submit">
+          Beratung anfragen
+        </button>
+
+        <div class="micro micro--center">
+          DSGVO-konform • Keine Weitergabe Ihrer Daten
+        </div>
+
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      </form>
+
+    </div>
+
+  </div>
+</section>
 
     <!-- PARTNER -->
 <section class="section reveal">
@@ -353,39 +565,7 @@
   </div>
 </section>
 
-<section class="section reveal services">
-  <div class="wrap">
-    <h2 class="h2">Mehr als nur <span class="gold">Makler</span></h2>
 
-    <div class="services__grid">
-      
-      <article class="service">
-        <img src="./assets/service1.jpg" alt="Kauf und Verkauf">
-        <h3>Kauf und Verkauf<br>von Immobilien</h3>
-        <p>Suchen und handeln Sie Immobilien präzise und unkompliziert.</p>
-      </article>
-
-      <article class="service">
-        <img src="./assets/service2.jpg" alt="Full Service">
-        <h3>Full-Service</h3>
-        <p>Baufinanzierung, Abwicklung, Notarservice sowie Grundstücks- und Energieberatung.</p>
-      </article>
-
-      <article class="service">
-        <img src="./assets/service3.jpg" alt="Hausbewertung">
-        <h3>Hausbewertung<br>und Markteinschätzung</h3>
-        <p>Professionelle Bewertung für den realistischen Wert Ihrer Immobilie.</p>
-      </article>
-
-      <article class="service">
-        <img src="./assets/service4.jpg" alt="3D Besichtigung">
-        <h3>3D-Besichtigungen<br>in Virtual Reality</h3>
-        <p>Erleben Sie Immobilien hautnah und interaktiv.</p>
-      </article>
-
-    </div>
-  </div>
-</section>
 
 
 
