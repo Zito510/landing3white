@@ -1261,3 +1261,27 @@ a:hover {
   transform:scale(1.1);
   opacity:0.9;
 }
+@media (max-width: 768px){
+  .footer2__grid{
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .footer2__about,
+  .footer2__col{
+    text-align: left;
+  }
+
+  .footer2__title{
+    margin-bottom: 10px;
+  }
+
+  .footer2__link,
+  .footer2__row{
+    padding: 4px 0;
+  }
+
+  .social{
+    justify-content: flex-start;
+  }
+}
